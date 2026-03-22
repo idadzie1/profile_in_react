@@ -1,0 +1,67 @@
+header{
+    margin-top: 6rem;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+          
+}
+
+
+.CV{
+    background-color:#1A3263;
+    border: 1px solid #fff
+}
+
+.CV a, .github a{
+    color: #fff;
+}
+
+.CV:hover{
+    background-color:#B7BDF7;
+}
+
+.github:hover{
+    background-color:#1A3263;
+}
+
+.cta__buttons{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+
+
+
+.header__image{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.header__image img{
+    display: block;
+    width: 30%;
+    height: 25rem;    
+    object-fit: cover;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+
+/* ============================== Media Queries =================================== */
+
+@media screen and (max-width:1024px){
+    .header__image img{
+        width: 20rem;
+        height: 55rem;
+        object-fit: cover;
+        border-top-left-radius: 30rem;
+        border-top-right-radius: 30rem;
+    }
+}
